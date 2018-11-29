@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 tableNumbers.addView(tr);
             }
             Button btn = new Button(this);
-            btn.setText(String.valueOf(i));
-            btn.setId(i);
+            btn.setText(String.valueOf(i+1));
+            btn.setId(i+1);
             btn.setOnClickListener(clickListener);
             btn.setBackgroundResource(R.color.colorPrimary);
             tr.addView(btn);
